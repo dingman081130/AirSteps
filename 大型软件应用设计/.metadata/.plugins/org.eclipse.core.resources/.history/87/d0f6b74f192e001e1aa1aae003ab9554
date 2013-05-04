@@ -1,0 +1,16 @@
+package application;
+import javax.swing.*;
+
+public class LoginWindow extends JFrame {
+	public LoginWindow(){
+		this.setTitle( "欢迎光临云中漫步游戏厅" );
+		this.setSize( 500, 300 );
+		this.setResizable( false );
+		this.setVisible( true );
+		this.setDefaultCloseOperation( JFrame.DISPOSE_ON_CLOSE );
+	}
+	
+	public static void main( String [] args ){
+		new LoginWindow();
+	}
+}

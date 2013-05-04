@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<session version="1.0">
+<refactoring comment="将类型“application.RegisterWindow”重命名为“RegisterDialog”&#13;&#10;－ 原始元素：“application.RegisterWindow”&#13;&#10;－ 重命名的元素：“application.RegisterDialog”&#13;&#10;－ 更新对已重构元素的引用&#13;&#10;－ 更新注释和字符串中出现的文本" description="重命名类型“RegisterWindow”" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/&lt;application{RegisterWindow.java[RegisterWindow" matchStrategy="1" name="RegisterDialog" qualified="false" references="true" similarDeclarations="false" stamp="1240288663890" textual="false" version="1.0"/>
+</session>

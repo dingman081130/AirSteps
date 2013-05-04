@@ -1,0 +1,208 @@
+package application;
+import javax.swing.*;
+
+
+import java.awt.*;
+import java.util.*;
+
+//Snake是BodyNode的集合
+public class Snake implements Runnable{
+	private ShowPanel father;
+	private Thread thread;
+	private Vector<BodyNode> bodyNodes;
+	private Block[][] blocks;
+	private int direction;	//蛇运行的方向 0-top 1-down 2-left 3-right
+	private boolean isRunning = true;
+	private int speed;
+	
+	public Snake( ShowPanel _father ){
+		this.father = _father;
+		this.blocks = father.getBlocks();
+		speed = 50;
+		bodyNodes = new Vector();
+	}
+	
+	public void initSnake(){
+		//初始化生成一条长度为两个node的蛇
+		int x, y;
+		do{
+			x = ( int )( Math.random() * 25 );	//在地图的上半部分生成
+			y = ( int )( Math.random() * 50 );
+		}while( x < 2 || blocks[x][y].getWallOrRoad() || blocks[x-1][y].getWallOrRoad() );
+		
+		BodyNode first = new BodyNode();
+		blocks[x][y].setIsOccupy( true );
+		first.setPosition( blocks[x][y], x, y );
+		bodyNodes.add( first );
+		
+		BodyNode last = new BodyNode();
+		blocks[x-1][y].setIsOccupy( true );
+		last.setPosition( blocks[x-1][y], x-1, y );
+		bodyNodes.add( last );
+		
+		direction = 1;	//初始化行走方向为下
+	}
+	
+	public Vector<BodyNode> getSnakeBodyNodes(){
+		return bodyNodes;
+	}
+	
+	public void setDirection( int d ){
+		if( d > -1 && d < 4 )
+			direction = d;
+		else 
+			;
+	}
+	
+	public void run(){
+		while( isRunning ){
+
+			BodyNode first = bodyNodes.firstElement();
+			BodyNode last = bodyNodes.lastElement();
+			
+			switch( direction ){
+				case 0:
+					int x0 =  ( first.getXInBlocks() - 1 + 50 ) % 50;
+					int y0 = ( first.getYInBlocks() + 50 ) % 50;
+					Block next0 = blocks[x0][y0];	//对下一块进行检测
+					if( next0.getHasFood() ){	//前方是食物
+						next0.setHasFood( false );	//吃掉食物
+						father.getFood().findLocation();
+						next0.setIsOccupy( true );	//宣布该块被占领
+						BodyNode newNode0 = new BodyNode();	//增长一个结点
+						newNode0.setPosition( next0, x0, y0 );
+						bodyNodes.add( 0, newNode0 );	//添加到蛇身上去
+						father.addNewSnakeNode( newNode0 );	//添加到显示面板上去
+						father.getFather().getMenuPanel().setCnt( bodyNodes.size() );
+					}else if( next0.getWallOrRoad() ){	//前方是石头
+						isRunning = false;
+						father.killGame();
+						JOptionPane.showMessageDialog( father.getFather(), "eat stone" );
+					}else if( next0.getIsOccupy() ){	//前方是蛇身
+						isRunning = false;
+						father.killGame();
+						JOptionPane.showMessageDialog( father.getFather(), "eat itself" );
+					}else if( !next0.getWallOrRoad() ){	//前方是路
+						next0.setIsOccupy( true );	//占领该块
+						last.getCurrentBlock().setIsOccupy( false );	//释放尾部节点占用的块
+						bodyNodes.remove( bodyNodes.size() - 1 );
+						last.setPosition( next0, x0, y0 );
+						bodyNodes.add( 0, last );
+					}else ;
+					break;
+				case 1:
+					int x1 = ( first.getXInBlocks() + 1 + 50 ) % 50;
+					int y1 = ( first.getYInBlocks() + 50 ) % 50;
+					Block next1 = blocks[x1][y1];	//对下一块进行检测
+					if( next1.getHasFood() ){	//前方是食物
+						next1.setHasFood( false );	//吃掉食物
+						father.getFood().findLocation();
+						next1.setIsOccupy( true );	//宣布该块被占领
+						BodyNode newNode1 = new BodyNode();	//增长一个结点
+						newNode1.setPosition( next1, x1, y1 );
+						bodyNodes.add( 0, newNode1 );	//添加到蛇身上去
+						father.addNewSnakeNode( newNode1 );	//添加到显示面板上去
+						father.getFather().getMenuPanel().setCnt( bodyNodes.size() );
+					}else if( next1.getWallOrRoad() ){	//前方是石头
+						isRunning = false;
+						father.killGame();
+						JOptionPane.showMessageDialog( father.getFather(), "eat stone" );
+					}else if( next1.getIsOccupy() ){	//前方是蛇身
+						isRunning = false;
+						father.killGame();
+						JOptionPane.showMessageDialog( father.getFather(), "eat itself" );
+					}else if( !next1.getWallOrRoad() ){	//前方是路
+						next1.setIsOccupy( true );	//占领该块
+						last.getCurrentBlock().setIsOccupy( false );	//释放尾部节点占用的块
+						bodyNodes.remove( bodyNodes.size() - 1 );
+						last.setPosition( next1, x1, y1 );
+						bodyNodes.add( 0, last );
+					}else ;
+					break;
+				case 2:
+					int x2 = ( first.getXInBlocks() + 50 ) % 50 ;
+					int y2 = ( first.getYInBlocks() - 1 + 50 ) % 50;
+					Block next2 = blocks[x2][y2];	//对下一块进行检测
+					if( next2.getHasFood() ){	//前方是食物
+						next2.setHasFood( false );	//吃掉食物
+						father.getFood().findLocation();
+						next2.setIsOccupy( true );	//宣布该块被占领
+						BodyNode newNode2 = new BodyNode();	//增长一个结点
+						newNode2.setPosition( next2, x2, y2 );
+						bodyNodes.add( 0, newNode2 );	//添加到蛇身上去
+						father.addNewSnakeNode( newNode2 );	//添加到显示面板上去
+						father.getFather().getMenuPanel().setCnt( bodyNodes.size() );
+					}else if( next2.getWallOrRoad() ){	//前方是石头
+						isRunning = false;
+						father.killGame();
+						JOptionPane.showMessageDialog( father.getFather(), "eat stone" );
+					}else if( next2.getIsOccupy() ){	//前方是蛇身
+						isRunning = false;
+						father.killGame();
+						JOptionPane.showMessageDialog( father.getFather(), "eat itself" );
+					}else if( !next2.getWallOrRoad() ){	//前方是路
+						next2.setIsOccupy( true );	//占领该块
+						last.getCurrentBlock().setIsOccupy( false );	//释放尾部节点占用的块
+						bodyNodes.remove( bodyNodes.size() - 1 );
+						last.setPosition( next2, x2, y2 );
+						bodyNodes.add( 0, last );
+					}else ;
+					break;
+				case 3:
+					int x3 = ( first.getXInBlocks() + 50 ) % 50;
+					int y3 = ( first.getYInBlocks() + 1 + 50 ) % 50;
+					Block next3 = blocks[x3][y3];	//对下一块进行检测
+					if( next3.getHasFood() ){	//前方是食物
+						next3.setHasFood( false );	//吃掉食物
+						father.getFood().findLocation();
+						next3.setIsOccupy( true );	//宣布该块被占领
+						BodyNode newNode3 = new BodyNode();	//增长一个结点
+						newNode3.setPosition( next3, x3, y3 );
+						bodyNodes.add( 0, newNode3 );	//添加到蛇身上去
+						father.addNewSnakeNode( newNode3 );	//添加到显示面板上去
+						father.getFather().getMenuPanel().setCnt( bodyNodes.size() );
+					}else if( next3.getWallOrRoad() ){	//前方是石头
+						isRunning = false;
+						father.killGame();
+						JOptionPane.showMessageDialog( father.getFather(), "eat stone" );
+					}else if( next3.getIsOccupy() ){	//前方是蛇身
+						isRunning = false;
+						father.killGame();
+						JOptionPane.showMessageDialog( father.getFather(), "eat itself" );
+					}else if( !next3.getWallOrRoad() ){	//前方是路
+						next3.setIsOccupy( true );	//占领该块
+						last.getCurrentBlock().setIsOccupy( false );	//释放尾部节点占用的块
+						bodyNodes.remove( bodyNodes.size() - 1 );
+						last.setPosition( next3, x3, y3 );
+						bodyNodes.add( 0, last );
+					}else ;
+					break;
+				default:
+					;
+			}
+			
+			try{
+				thread.sleep( speed );
+			}catch( InterruptedException e ){
+				e.printStackTrace();
+			}
+		}
+	}
+	
+	public void move(){
+		thread = new Thread( this );
+		thread.start();
+	}
+	
+	public void pause(){
+		thread.stop();
+	}
+	
+	public int getDirection(){
+		return direction;
+	}
+	
+	public void setSpeed( int _speed ){
+		this.speed = _speed;
+	}
+}

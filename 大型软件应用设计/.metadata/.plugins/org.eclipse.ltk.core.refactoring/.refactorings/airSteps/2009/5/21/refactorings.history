@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<session version="1.0">
+<refactoring comment="将包“application”重命名为“hall”&#13;&#10;－ 原始元素：“airSteps/application”&#13;&#10;－ 重命名的元素：“airSteps/hall”&#13;&#10;－ 更新对已重构元素的引用&#13;&#10;－ 更新注释和字符串中出现的文本" description="重命名包“application”" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/&lt;application" name="hall" qualified="false" references="true" stamp="1242571007828" textual="false" version="1.0"/>
+</session>

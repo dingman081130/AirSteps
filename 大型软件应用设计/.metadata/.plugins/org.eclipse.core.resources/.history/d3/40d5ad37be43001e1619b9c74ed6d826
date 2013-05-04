@@ -1,0 +1,52 @@
+package snake;
+import javax.swing.*;
+import javax.swing.border.BevelBorder;
+import javax.swing.border.SoftBevelBorder;
+import java.io.*;
+
+public class SnakeWindow extends JFrame{
+
+	private MenuPanel menuPanel = new MenuPanel( this );
+	private ShowPanel showPanel = new ShowPanel( this );
+	private CtrlPanel ctrlPanel = new CtrlPanel( this );
+	private String user;
+	
+	public SnakeWindow( String _user ){
+		user = _user;
+		this.setTitle( "snake" );
+		this.setDefaultCloseOperation( JFrame.EXIT_ON_CLOSE );
+		this.setVisible( true );
+		this.setSize( 510, 580 );
+		this.setResizable( false );
+		this.setLocation( 100, 100 );
+		this.setLayout( null );
+		
+		menuPanel.setBorder( new SoftBevelBorder( BevelBorder.RAISED ) );
+		menuPanel.setBounds( 1, 1, 500, 20 );
+		this.add( menuPanel );
+		
+		showPanel.setBorder( new SoftBevelBorder( BevelBorder.LOWERED ) );
+		showPanel.setBounds( 1, 22, 500, 500 );
+		this.add( showPanel );
+		
+		ctrlPanel.setBorder( new SoftBevelBorder( BevelBorder.LOWERED ) );
+		ctrlPanel.setBounds( 1, 523, 500, 24 );
+		this.add( ctrlPanel );
+	}
+	
+	public MenuPanel getMenuPanel(){
+		return menuPanel;
+	}
+	public ShowPanel getShowPanel(){
+		return showPanel;
+	}
+	public CtrlPanel getCtrlPanel(){
+		return ctrlPanel;
+	}
+	
+	
+	
+/*	public static void main( String [] args ){
+		new SnakeWindow();
+	}*/
+}

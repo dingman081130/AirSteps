@@ -1,0 +1,25 @@
+package application;
+import javax.swing.*;
+import java.awt.*;
+
+public class LoginWindow extends JFrame {
+	private Toolkit tool;
+	private Image image;
+	
+	private JTextField user;
+	private JPasswordField pwd;
+	
+	public LoginWindow(){
+		this.setTitle( "欢迎光临云中漫步游戏厅" );
+		this.setSize( 300, 200 );
+		this.setResizable( false );
+		this.setVisible( true );
+		this.setDefaultCloseOperation( JFrame.DISPOSE_ON_CLOSE );
+		
+		tool = this.getToolkit();
+	}
+	
+	public static void main( String [] args ){
+		new LoginWindow();
+	}
+}

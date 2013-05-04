@@ -1,0 +1,110 @@
+package hall;
+import java.awt.*;
+import java.awt.event.WindowAdapter;
+import java.awt.event.WindowEvent;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import javax.swing.*;
+import java.io.*;
+
+public class RegisterDialog extends JDialog implements ActionListener{
+	private JLabel nameLabel, pwdLabel, rePwdLabel, icon;
+	private JTextField name;
+	private JPasswordField pwd, rePwd;
+	private JButton checkName, submit;
+	
+	private class InnerWindowCloser extends WindowAdapter{
+		public void windowClosing( WindowEvent we ){
+			new LoginWindow();
+		}
+	}
+	
+	public RegisterDialog(){
+		this.setTitle( "register" );
+		this.setSize( 250, 170 );
+		this.setVisible( true );
+		this.setResizable( false );
+		this.setLayout( null );
+		this.addWindowListener( new InnerWindowCloser() );
+		this.setDefaultCloseOperation( JDialog.DISPOSE_ON_CLOSE );
+		this.setLocation( ( int )( this.getToolkit().getScreenSize().getWidth() - this.getWidth() ) / 2, 
+				( int )( this.getToolkit().getScreenSize().getHeight() - this.getHeight() ) / 2  );
+		
+		nameLabel = new JLabel( "用户名" );
+		nameLabel.setBounds( 15, 20, 40, 20 );
+		this.add( nameLabel );
+		
+		name = new JTextField( "请输入注册名" );
+		name.setBounds( 60, 20, 100, 20 );
+		this.add( name );
+		
+		checkName = new JButton( "检测" );
+		checkName.setBounds( 165, 20, 60, 20 );
+		this.add( checkName );
+		checkName.addActionListener( this );
+		
+		pwdLabel = new JLabel( "密码" );
+		pwdLabel.setBounds( 15, 45, 40, 20 );
+		this.add( pwdLabel );
+		
+		pwd = new JPasswordField();
+		pwd.setBounds( 60, 45, 100, 20 );
+		this.add( pwd );
+		
+		rePwdLabel = new JLabel( "验证" );
+		rePwdLabel.setBounds( 15, 70, 40, 20 );
+		this.add( rePwdLabel );
+		
+		rePwd = new JPasswordField();
+		rePwd.setBounds( 60, 70, 100, 20 );
+		this.add( rePwd );
+		
+		icon = new JLabel( "×" );
+		icon.setBounds( 165, 70, 60, 20 );
+		this.add( icon );
+		
+		submit = new JButton( "提交" );
+		submit.setBounds( 60, 100, 60, 20 );
+		this.add( submit );
+		
+		this.validate();
+	}
+	
+	public void actionPerformed( ActionEvent ae ){
+		if( ae.getSource() == checkName ){
+			String nameS = name.getText();
+			if( nameS.equals( "" ) ){
+				JOptionPane.showMessageDialog( this, "用户名不得为空" );
+				return ;
+			}
+			File file = new File( "database\\user.txt" );
+			try{
+				FileReader fr = new FileReader( file );
+				BufferedReader br = new BufferedReader( fr );
+				String s;
+				s = br.readLine();
+				while( s != null ){	//文件没有结束
+					if( s.startsWith( nameS ) ){	//判断与注册名是否相同
+						JOptionPane.showMessageDialog( this, "该用户名已经存在" );
+						fr.close(); br.close();
+						return ;
+					}
+					s = br.readLine();
+				}
+				fr.close(); br.close();
+				FileWriter fw = new FileWriter( file );
+				BufferedWriter bw = new BufferedWriter( fw );
+				bw.append( nameS + " " + pwd.getText() );
+				fw.close();
+				
+			}catch( FileNotFoundException fnfe ){
+				JOptionPane.showMessageDialog( this, "没有可读入的用户文件供用户名检测" );
+			}catch( IOException ioe ){
+				JOptionPane.showMessageDialog( this, "读取用户文件出错" );
+			}
+			//BufferedReader br = new Buffered
+		}else if( ae.getSource() == submit ){
+			
+		}
+	}
+}

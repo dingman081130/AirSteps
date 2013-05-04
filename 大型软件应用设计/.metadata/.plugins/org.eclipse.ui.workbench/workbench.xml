@@ -1,0 +1,744 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workbench progressCount="18" version="2.0">
+<workbenchAdvisor/>
+<window height="768" maximized="true" width="1024" x="536" y="58">
+<fastViewData fastViewLocation="1024"/>
+<perspectiveBar>
+<itemSize x="160"/>
+</perspectiveBar>
+<coolbarLayout locked="0">
+<coolItem id="group.file" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="98" y="22"/>
+<coolItem id="additions" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="124" y="22"/>
+<coolItem id="org.eclipse.jdt.ui.JavaElementCreationActionSet" itemType="typeToolBarContribution" x="98" y="22"/>
+<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="62" y="22"/>
+<coolItem id="org.eclipse.ui.WorkingSetActionSet" itemType="typeToolBarContribution" x="52" y="22"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="62" y="22"/>
+<coolItem id="group.nav" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="183" y="22"/>
+<coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="group.help" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
+</coolbarLayout>
+<page aggregateWorkingSetId="Aggregate for window 1238872785187" focus="true" label="工作空间 － Java">
+<editors>
+<editorArea activeWorkbook="DefaultEditorWorkbook">
+<info part="DefaultEditorWorkbook">
+<folder appearance="1" expanded="2">
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+<part id="5"/>
+<part id="6"/>
+<part id="7"/>
+<part id="8"/>
+<part id="9"/>
+<part id="10"/>
+<part id="11"/>
+<part id="12"/>
+<part id="13"/>
+<part id="14"/>
+<part id="15"/>
+<part id="16"/>
+<part id="17"/>
+<part id="18"/>
+<part id="19"/>
+<part id="20"/>
+<part id="21"/>
+<part id="22"/>
+<part id="23"/>
+<part id="24"/>
+<part id="25"/>
+<part id="26"/>
+<part id="27"/>
+<part id="28"/>
+<part id="29"/>
+<part id="30"/>
+<part id="31"/>
+<part id="32"/>
+<part id="33"/>
+<part id="34"/>
+<part id="35"/>
+<part id="36"/>
+<part id="37"/>
+<part id="38"/>
+<part id="39"/>
+<part id="40"/>
+<part id="41"/>
+<part id="42"/>
+<part id="43"/>
+<part id="44"/>
+<part id="45"/>
+<part id="46"/>
+<part id="47"/>
+<part id="48"/>
+<part id="49"/>
+<part id="50"/>
+<part id="51"/>
+<part id="52"/>
+<part id="53"/>
+<part id="54"/>
+<part id="55"/>
+<part id="56"/>
+<part id="57"/>
+<part id="58"/>
+<part id="59"/>
+<part id="60"/>
+<part id="61"/>
+<part id="62"/>
+<part id="63"/>
+<part id="64"/>
+<part id="65"/>
+<part id="66"/>
+<part id="67"/>
+<part id="68"/>
+<part id="69"/>
+<part id="70"/>
+<part id="71"/>
+<part id="72"/>
+<part id="73"/>
+<part id="74"/>
+<part id="75"/>
+<part id="76"/>
+<part id="77"/>
+<part id="78"/>
+</presentation>
+</folder>
+</info>
+</editorArea>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ShowPanel.java" partName="ShowPanel.java" title="ShowPanel.java" tooltip="Snake/application/ShowPanel.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Snake/application/ShowPanel.java"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Food.java" partName="Food.java" path="E:/大规模软件设计/Snake/application/Food.java" title="Food.java" tooltip="Snake/application/Food.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Snake/application/Food.java"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SnakeWindow.java" partName="SnakeWindow.java" path="E:/大规模软件设计/Snake/application/SnakeWindow.java" title="SnakeWindow.java" tooltip="Snake/application/SnakeWindow.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Snake/application/SnakeWindow.java"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Snake.java" partName="Snake.java" path="E:/大规模软件设计/Snake/application/Snake.java" title="Snake.java" tooltip="Snake/application/Snake.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Snake/application/Snake.java"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Block.java" partName="Block.java" path="E:/大规模软件设计/Snake/application/Block.java" title="Block.java" tooltip="Snake/application/Block.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Snake/application/Block.java"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BodyNode.java" partName="BodyNode.java" path="E:/大规模软件设计/Snake/application/BodyNode.java" title="BodyNode.java" tooltip="Snake/application/BodyNode.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Snake/application/BodyNode.java"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Wind.java" partName="Wind.java" path="E:/大规模软件设计/test/application/Wind.java" title="Wind.java" tooltip="test/application/Wind.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/test/application/Wind.java"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CtrlPanel.java" partName="CtrlPanel.java" path="E:/大规模软件设计/Snake/application/CtrlPanel.java" title="CtrlPanel.java" tooltip="Snake/application/CtrlPanel.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Snake/application/CtrlPanel.java"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MenuPanel.java" partName="MenuPanel.java" path="E:/大规模软件设计/Snake/application/MenuPanel.java" title="MenuPanel.java" tooltip="Snake/application/MenuPanel.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Snake/application/MenuPanel.java"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="T.java" partName="T.java" path="E:/大规模软件设计/test/application/T.java" title="T.java" tooltip="test/application/T.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/test/application/T.java"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LoginWindow.java" partName="LoginWindow.java" path="E:/大规模软件设计/Login/application/LoginWindow.java" title="LoginWindow.java" tooltip="Login/application/LoginWindow.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Login/application/LoginWindow.java"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="RegisterDialog.java" partName="RegisterDialog.java" path="E:/大规模软件设计/airSteps/hall/RegisterDialog.java" title="RegisterDialog.java" tooltip="airSteps/hall/RegisterDialog.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/airSteps/hall/RegisterDialog.java"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GameHall.java" partName="GameHall.java" path="E:/大规模软件设计/Login/application/GameHall.java" title="GameHall.java" tooltip="Login/application/GameHall.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Login/application/GameHall.java"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MineGame.java" partName="MineGame.java" path="E:/大规模软件设计/Mine/application/MineGame.java" title="MineGame.java" tooltip="Mine/application/MineGame.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Mine/application/MineGame.java"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MineArea.java" partName="MineArea.java" path="E:/大规模软件设计/Mine/application/MineArea.java" title="MineArea.java" tooltip="Mine/application/MineArea.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Mine/application/MineArea.java"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Block.java" partName="Block.java" path="E:/大规模软件设计/Mine/application/Block.java" title="Block.java" tooltip="Mine/application/Block.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Mine/application/Block.java"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BlockView.java" partName="BlockView.java" path="E:/大规模软件设计/Mine/application/BlockView.java" title="BlockView.java" tooltip="Mine/application/BlockView.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Mine/application/BlockView.java"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LayMines.java" partName="LayMines.java" path="E:/大规模软件设计/Mine/application/LayMines.java" title="LayMines.java" tooltip="Mine/application/LayMines.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Mine/application/LayMines.java"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Record.java" partName="Record.java" path="E:/大规模软件设计/Mine/application/Record.java" title="Record.java" tooltip="Mine/application/Record.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Mine/application/Record.java"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ShowRecord.java" partName="ShowRecord.java" path="E:/大规模软件设计/Mine/application/ShowRecord.java" title="ShowRecord.java" tooltip="Mine/application/ShowRecord.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Mine/application/ShowRecord.java"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="HannoiWindow.java" partName="HannoiWindow.java" path="E:/大规模软件设计/Hannoi/application/HannoiWindow.java" title="HannoiWindow.java" tooltip="Hannoi/application/HannoiWindow.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Hannoi/application/HannoiWindow.java"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Disc.java" partName="Disc.java" path="E:/大规模软件设计/Hannoi/application/Disc.java" title="Disc.java" tooltip="Hannoi/application/Disc.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Hannoi/application/Disc.java"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AutoMoveDisc.java" partName="AutoMoveDisc.java" path="E:/大规模软件设计/Hannoi/application/AutoMoveDisc.java" title="AutoMoveDisc.java" tooltip="Hannoi/application/AutoMoveDisc.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Hannoi/application/AutoMoveDisc.java"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Tower.java" partName="Tower.java" path="E:/大规模软件设计/Hannoi/application/Tower.java" title="Tower.java" tooltip="Hannoi/application/Tower.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Hannoi/application/Tower.java"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="HandleMouse.java" partName="HandleMouse.java" path="E:/大规模软件设计/Hannoi/application/HandleMouse.java" title="HandleMouse.java" tooltip="Hannoi/application/HandleMouse.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Hannoi/application/HandleMouse.java"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TowerPoint.java" partName="TowerPoint.java" path="E:/大规模软件设计/Hannoi/application/TowerPoint.java" title="TowerPoint.java" tooltip="Hannoi/application/TowerPoint.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Hannoi/application/TowerPoint.java"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Snake.java" partName="Snake.java" path="E:/大规模软件设计/Login/snake/Snake.java" title="Snake.java" tooltip="Login/snake/Snake.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Login/snake/Snake.java"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SnakeWindow.java" partName="SnakeWindow.java" path="E:/大规模软件设计/Login/snake/SnakeWindow.java" title="SnakeWindow.java" tooltip="Login/snake/SnakeWindow.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Login/snake/SnakeWindow.java"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MenuPanel.java" partName="MenuPanel.java" path="E:/大规模软件设计/Login/snake/MenuPanel.java" title="MenuPanel.java" tooltip="Login/snake/MenuPanel.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Login/snake/MenuPanel.java"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BodyNode.java" partName="BodyNode.java" path="E:/大规模软件设计/Login/snake/BodyNode.java" title="BodyNode.java" tooltip="Login/snake/BodyNode.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Login/snake/BodyNode.java"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Block.java" partName="Block.java" path="E:/大规模软件设计/Login/mine/Block.java" title="Block.java" tooltip="Login/mine/Block.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Login/mine/Block.java"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MineGame.java" partName="MineGame.java" path="E:/大规模软件设计/Login/mine/MineGame.java" title="MineGame.java" tooltip="Login/mine/MineGame.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Login/mine/MineGame.java"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="HannoiWindow.java" partName="HannoiWindow.java" path="E:/大规模软件设计/Login/hannoi/HannoiWindow.java" title="HannoiWindow.java" tooltip="Login/hannoi/HannoiWindow.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Login/hannoi/HannoiWindow.java"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Tower.java" partName="Tower.java" path="E:/大规模软件设计/Login/hannoi/Tower.java" title="Tower.java" tooltip="Login/hannoi/Tower.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Login/hannoi/Tower.java"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Block.java" partName="Block.java" path="E:/大规模软件设计/Login/puzzle/Block.java" title="Block.java" tooltip="Login/puzzle/Block.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Login/puzzle/Block.java"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="HandleImage.java" partName="HandleImage.java" path="E:/大规模软件设计/Login/puzzle/HandleImage.java" title="HandleImage.java" tooltip="Login/puzzle/HandleImage.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Login/puzzle/HandleImage.java"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="HandleMove.java" partName="HandleMove.java" path="E:/大规模软件设计/Login/puzzle/HandleMove.java" title="HandleMove.java" tooltip="Login/puzzle/HandleMove.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Login/puzzle/HandleMove.java"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Point.java" partName="Point.java" path="E:/大规模软件设计/Login/puzzle/Point.java" title="Point.java" tooltip="Login/puzzle/Point.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Login/puzzle/Point.java"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PuzzleGame.java" partName="PuzzleGame.java" path="E:/大规模软件设计/Login/puzzle/PuzzleGame.java" title="PuzzleGame.java" tooltip="Login/puzzle/PuzzleGame.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Login/puzzle/PuzzleGame.java"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PuzzlePad.java" partName="PuzzlePad.java" path="E:/大规模软件设计/Login/puzzle/PuzzlePad.java" title="PuzzlePad.java" tooltip="Login/puzzle/PuzzlePad.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Login/puzzle/PuzzlePad.java"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="VerifySuccess.java" partName="VerifySuccess.java" path="E:/大规模软件设计/Login/puzzle/VerifySuccess.java" title="VerifySuccess.java" tooltip="Login/puzzle/VerifySuccess.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Login/puzzle/VerifySuccess.java"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AutoMoveDisc.java" partName="AutoMoveDisc.java" path="E:/大规模软件设计/Login/hannoi/AutoMoveDisc.java" title="AutoMoveDisc.java" tooltip="Login/hannoi/AutoMoveDisc.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Login/hannoi/AutoMoveDisc.java"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="HandleMove.java" partName="HandleMove.java" path="E:/大规模软件设计/Login/maze/HandleMove.java" title="HandleMove.java" tooltip="Login/maze/HandleMove.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Login/maze/HandleMove.java"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Maze.java" partName="Maze.java" path="E:/大规模软件设计/Login/maze/Maze.java" title="Maze.java" tooltip="Login/maze/Maze.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Login/maze/Maze.java"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MazePoint.java" partName="MazePoint.java" path="E:/大规模软件设计/Login/maze/MazePoint.java" title="MazePoint.java" tooltip="Login/maze/MazePoint.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Login/maze/MazePoint.java"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MazeWindow.java" partName="MazeWindow.java" path="E:/大规模软件设计/Login/maze/MazeWindow.java" title="MazeWindow.java" tooltip="Login/maze/MazeWindow.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Login/maze/MazeWindow.java"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PersonInMaze.java" partName="PersonInMaze.java" path="E:/大规模软件设计/Login/maze/PersonInMaze.java" title="PersonInMaze.java" tooltip="Login/maze/PersonInMaze.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Login/maze/PersonInMaze.java"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="WallOrRoad.java" partName="WallOrRoad.java" path="E:/大规模软件设计/Login/maze/WallOrRoad.java" title="WallOrRoad.java" tooltip="Login/maze/WallOrRoad.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Login/maze/WallOrRoad.java"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Block.java" partName="Block.java" path="E:/大规模软件设计/airSteps/puzzle/Block.java" title="Block.java" tooltip="airSteps/puzzle/Block.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/airSteps/puzzle/Block.java"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GameHall.java" partName="GameHall.java" path="E:/大规模软件设计/airSteps/hall/GameHall.java" title="GameHall.java" tooltip="airSteps/hall/GameHall.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/airSteps/hall/GameHall.java"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="HannoiWindow.java" partName="HannoiWindow.java" path="E:/大规模软件设计/airSteps/hannoi/HannoiWindow.java" title="HannoiWindow.java" tooltip="airSteps/hannoi/HannoiWindow.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/airSteps/hannoi/HannoiWindow.java"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MazeWindow.java" partName="MazeWindow.java" path="E:/大规模软件设计/airSteps/maze/MazeWindow.java" title="MazeWindow.java" tooltip="airSteps/maze/MazeWindow.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/airSteps/maze/MazeWindow.java"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MineGame.java" partName="MineGame.java" path="E:/大规模软件设计/airSteps/mine/MineGame.java" title="MineGame.java" tooltip="airSteps/mine/MineGame.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/airSteps/mine/MineGame.java"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PuzzleGame.java" partName="PuzzleGame.java" path="E:/大规模软件设计/airSteps/puzzle/PuzzleGame.java" title="PuzzleGame.java" tooltip="airSteps/puzzle/PuzzleGame.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/airSteps/puzzle/PuzzleGame.java"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SnakeWindow.java" partName="SnakeWindow.java" path="E:/大规模软件设计/airSteps/snake/SnakeWindow.java" title="SnakeWindow.java" tooltip="airSteps/snake/SnakeWindow.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/airSteps/snake/SnakeWindow.java"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LoginWindow.java" partName="LoginWindow.java" path="E:/大规模软件设计/airSteps/hall/LoginWindow.java" title="LoginWindow.java" tooltip="airSteps/hall/LoginWindow.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/airSteps/hall/LoginWindow.java"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Snake.java" partName="Snake.java" path="E:/大规模软件设计/airSteps/snake/Snake.java" title="Snake.java" tooltip="airSteps/snake/Snake.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/airSteps/snake/Snake.java"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PersonInMaze.java" partName="PersonInMaze.java" path="E:/大规模软件设计/airSteps/maze/PersonInMaze.java" title="PersonInMaze.java" tooltip="airSteps/maze/PersonInMaze.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/airSteps/maze/PersonInMaze.java"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Block.java" partName="Block.java" path="E:/大规模软件设计/airSteps/mine/Block.java" title="Block.java" tooltip="airSteps/mine/Block.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/airSteps/mine/Block.java"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Block.java" partName="Block.java" path="E:/大规模软件设计/airSteps/snake/Block.java" title="Block.java" tooltip="airSteps/snake/Block.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/airSteps/snake/Block.java"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ShowPanel.java" partName="ShowPanel.java" path="E:/大规模软件设计/airSteps/snake/ShowPanel.java" title="ShowPanel.java" tooltip="airSteps/snake/ShowPanel.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/airSteps/snake/ShowPanel.java"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Point.java" partName="Point.java" path="E:/大规模软件设计/airSteps/puzzle/Point.java" title="Point.java" tooltip="airSteps/puzzle/Point.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/airSteps/puzzle/Point.java"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="HandleMove.java" partName="HandleMove.java" path="E:/大规模软件设计/airSteps/maze/HandleMove.java" title="HandleMove.java" tooltip="airSteps/maze/HandleMove.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/airSteps/maze/HandleMove.java"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PuzzlePad.java" partName="PuzzlePad.java" path="E:/大规模软件设计/airSteps/puzzle/PuzzlePad.java" title="PuzzlePad.java" tooltip="airSteps/puzzle/PuzzlePad.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/airSteps/puzzle/PuzzlePad.java"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Maze.java" partName="Maze.java" path="E:/大规模软件设计/airSteps/maze/Maze.java" title="Maze.java" tooltip="airSteps/maze/Maze.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/airSteps/maze/Maze.java"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="WallOrRoad.java" partName="WallOrRoad.java" path="E:/大规模软件设计/airSteps/maze/WallOrRoad.java" title="WallOrRoad.java" tooltip="airSteps/maze/WallOrRoad.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/airSteps/maze/WallOrRoad.java"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AutoMoveDisc.java" partName="AutoMoveDisc.java" path="E:/大规模软件设计/airSteps/hannoi/AutoMoveDisc.java" title="AutoMoveDisc.java" tooltip="airSteps/hannoi/AutoMoveDisc.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/airSteps/hannoi/AutoMoveDisc.java"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Disc.java" partName="Disc.java" path="E:/大规模软件设计/airSteps/hannoi/Disc.java" title="Disc.java" tooltip="airSteps/hannoi/Disc.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/airSteps/hannoi/Disc.java"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="HandleMouse.java" partName="HandleMouse.java" path="E:/大规模软件设计/airSteps/hannoi/HandleMouse.java" title="HandleMouse.java" tooltip="airSteps/hannoi/HandleMouse.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/airSteps/hannoi/HandleMouse.java"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Tower.java" partName="Tower.java" path="E:/大规模软件设计/airSteps/hannoi/Tower.java" title="Tower.java" tooltip="airSteps/hannoi/Tower.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/airSteps/hannoi/Tower.java"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TowerPoint.java" partName="TowerPoint.java" path="E:/大规模软件设计/airSteps/hannoi/TowerPoint.java" title="TowerPoint.java" tooltip="airSteps/hannoi/TowerPoint.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/airSteps/hannoi/TowerPoint.java"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MazePoint.java" partName="MazePoint.java" path="E:/大规模软件设计/airSteps/maze/MazePoint.java" title="MazePoint.java" tooltip="airSteps/maze/MazePoint.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/airSteps/maze/MazePoint.java"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="HandleImage.java" partName="HandleImage.java" path="E:/大规模软件设计/airSteps/puzzle/HandleImage.java" title="HandleImage.java" tooltip="airSteps/puzzle/HandleImage.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/airSteps/puzzle/HandleImage.java"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="HandleMove.java" partName="HandleMove.java" path="E:/大规模软件设计/airSteps/puzzle/HandleMove.java" title="HandleMove.java" tooltip="airSteps/puzzle/HandleMove.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/airSteps/puzzle/HandleMove.java"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="VerifySuccess.java" partName="VerifySuccess.java" path="E:/大规模软件设计/airSteps/puzzle/VerifySuccess.java" title="VerifySuccess.java" tooltip="airSteps/puzzle/VerifySuccess.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/airSteps/puzzle/VerifySuccess.java"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BodyNode.java" partName="BodyNode.java" path="E:/大规模软件设计/airSteps/snake/BodyNode.java" title="BodyNode.java" tooltip="airSteps/snake/BodyNode.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/airSteps/snake/BodyNode.java"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CtrlPanel.java" partName="CtrlPanel.java" path="E:/大规模软件设计/airSteps/snake/CtrlPanel.java" title="CtrlPanel.java" tooltip="airSteps/snake/CtrlPanel.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/airSteps/snake/CtrlPanel.java"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Food.java" partName="Food.java" path="E:/大规模软件设计/airSteps/snake/Food.java" title="Food.java" tooltip="airSteps/snake/Food.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/airSteps/snake/Food.java"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MenuPanel.java" partName="MenuPanel.java" path="E:/大规模软件设计/airSteps/snake/MenuPanel.java" title="MenuPanel.java" tooltip="airSteps/snake/MenuPanel.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/airSteps/snake/MenuPanel.java"/>
+</editor>
+</editors>
+<views>
+<view id="org.eclipse.ui.views.ProblemView" partName="问题">
+<viewState columnWidth0="259" columnWidth1="84" columnWidth2="159" columnWidth3="69" columnWidth4="0" horizontalPosition="0" verticalPosition="0">
+<columnOrder columnOrderIndex="0"/>
+<columnOrder columnOrderIndex="1"/>
+<columnOrder columnOrderIndex="2"/>
+<columnOrder columnOrderIndex="3"/>
+<columnOrder columnOrderIndex="4"/>
+</viewState>
+</view>
+<view id="org.eclipse.ui.console.ConsoleView" partName="控制台">
+<viewState/>
+</view>
+<view id="org.eclipse.jdt.ui.PackageExplorer" partName="包资源管理器">
+<viewState isWindowWorkingSet="true" layout="2" org.eclipse.jdt.ui.packages.linktoeditor="0" rootMode="1" workingSetName="">
+<customFilters userDefinedPatternsEnabled="false">
+<xmlDefinedFilters>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.LibraryFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.LocalTypesFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.StaticsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer_patternFilterId_*$*.class" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.ClosedProjectsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonSharedProjectsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.CuAndClassFileFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.ContainedLibraryFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonJavaElementFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonJavaProjectsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.PackageDeclarationFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.internal.ui.PackageExplorer.EmptyInnerPackageFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.internal.ui.PackageExplorer.EmptyPackageFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.ImportDeclarationFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.FieldsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonPublicFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer_patternFilterId_.*" isEnabled="true"/>
+<child filterId="org.eclipse.pde.ui.BinaryProjectFilter1" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.SyntheticMembersFilter" isEnabled="true"/>
+</xmlDefinedFilters>
+</customFilters>
+</viewState>
+</view>
+<view id="org.eclipse.ui.views.ContentOutline" partName="大纲">
+<viewState/>
+</view>
+<view id="org.eclipse.jdt.ui.SourceView" partName="声明"/>
+<view id="org.eclipse.jdt.ui.JavadocView" partName="Javadoc"/>
+</views>
+<perspectives activePart="org.eclipse.jdt.ui.CompilationUnitEditor" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
+<perspective editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="org.eclipse.jdt.internal.ui.JavaPerspectiveFactory" id="org.eclipse.jdt.ui.JavaPerspective" label="Java"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.openExternalFile"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.WorkingSetActionSet"/>
+<alwaysOnActionSet id="org.eclipse.update.ui.softwareUpdates"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.ui.JavaActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.ui.JavaElementCreationActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.NavigateActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.debug.ui.JDTDebugActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.junit.JUnitActionSet"/>
+<show_view_action id="org.eclipse.jdt.ui.PackageExplorer"/>
+<show_view_action id="org.eclipse.jdt.ui.TypeHierarchy"/>
+<show_view_action id="org.eclipse.jdt.ui.SourceView"/>
+<show_view_action id="org.eclipse.jdt.ui.JavadocView"/>
+<show_view_action id="org.eclipse.search.ui.views.SearchView"/>
+<show_view_action id="org.eclipse.ui.console.ConsoleView"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="org.eclipse.ui.views.ProblemView"/>
+<show_view_action id="org.eclipse.ui.views.ResourceNavigator"/>
+<show_view_action id="org.eclipse.ui.views.TaskList"/>
+<show_view_action id="org.eclipse.ui.views.ProgressView"/>
+<show_view_action id="org.eclipse.ant.ui.views.AntView"/>
+<show_view_action id="org.eclipse.pde.runtime.LogView"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewPackageCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewClassCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewInterfaceCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewEnumCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewAnnotationCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewSourceFolderCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewSnippetFileCreationWizard"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.folder"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.file"/>
+<new_wizard_action id="org.eclipse.ui.editors.wizards.UntitledTextFileWizard"/>
+<new_wizard_action id="org.eclipse.jdt.junit.wizards.NewTestCaseCreationWizard"/>
+<perspective_action id="org.eclipse.jdt.ui.JavaPerspective"/>
+<perspective_action id="org.eclipse.debug.ui.DebugPerspective"/>
+<perspective_action id="org.eclipse.jdt.ui.JavaBrowsingPerspective"/>
+<view id="org.eclipse.jdt.ui.PackageExplorer"/>
+<view id="org.eclipse.ui.views.ProblemView"/>
+<view id="org.eclipse.jdt.ui.JavadocView"/>
+<view id="org.eclipse.jdt.ui.SourceView"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
+<view id="org.eclipse.ui.views.ContentOutline"/>
+<layout>
+<mainWindow>
+<info folder="true" part="left">
+<folder activePageID="org.eclipse.jdt.ui.PackageExplorer" appearance="2" expanded="2">
+<page content="org.eclipse.jdt.ui.PackageExplorer" label="包资源管理器"/>
+<page content="org.eclipse.jdt.ui.TypeHierarchy" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
+<page content="org.eclipse.jdt.junit.ResultView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.7496063" ratioLeft="952" ratioRight="318" relationship="2" relative="left">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.1878453" ratioLeft="238" ratioRight="1029" relationship="2" relative="left"/>
+<info folder="true" part="bottom" ratio="0.7884187" ratioLeft="708" ratioRight="190" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ProblemView" label="问题"/>
+<page content="org.eclipse.jdt.ui.JavadocView" label="Javadoc"/>
+<page content="org.eclipse.jdt.ui.SourceView" label="声明"/>
+<page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.console.ConsoleView" label="控制台"/>
+<page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@11999d8" ratio="0.74921304" ratioLeft="714" ratioRight="239" relationship="2" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ContentOutline" label="大纲"/>
+<page content="org.eclipse.ant.ui.views.AntView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+</perspectives>
+<workingSets/>
+<navigationHistory>
+<editors>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/airSteps/maze/HandleMove.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/airSteps/maze/Maze.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/airSteps/maze/MazePoint.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/airSteps/maze/MazeWindow.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/airSteps/maze/PersonInMaze.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/airSteps/maze/WallOrRoad.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/airSteps/puzzle/Block.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/airSteps/puzzle/HandleImage.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/airSteps/puzzle/HandleMove.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/airSteps/puzzle/Point.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/airSteps/puzzle/PuzzleGame.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/airSteps/puzzle/PuzzlePad.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/airSteps/puzzle/VerifySuccess.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/airSteps/snake/Block.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/airSteps/snake/BodyNode.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/airSteps/snake/CtrlPanel.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/airSteps/snake/Food.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/airSteps/snake/MenuPanel.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/airSteps/snake/ShowPanel.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/airSteps/snake/SnakeWindow.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/airSteps/snake/Snake.java"/>
+</editors>
+<item historyLabel="MazeWindow.java" index="3">
+<position/>
+</item>
+<item historyLabel="PersonInMaze.java" index="4">
+<position/>
+</item>
+<item historyLabel="WallOrRoad.java" index="5">
+<position/>
+</item>
+<item historyLabel="Block.java" index="6">
+<position/>
+</item>
+<item historyLabel="HandleImage.java" index="7">
+<position/>
+</item>
+<item historyLabel="HandleMove.java" index="8">
+<position/>
+</item>
+<item historyLabel="Point.java" index="9">
+<position/>
+</item>
+<item historyLabel="PuzzleGame.java" index="10">
+<position/>
+</item>
+<item historyLabel="PuzzlePad.java" index="11">
+<position/>
+</item>
+<item historyLabel="VerifySuccess.java" index="12">
+<position/>
+</item>
+<item historyLabel="Block.java" index="13">
+<position/>
+</item>
+<item historyLabel="BodyNode.java" index="14">
+<position/>
+</item>
+<item historyLabel="CtrlPanel.java" index="15">
+<position/>
+</item>
+<item historyLabel="Food.java" index="16">
+<position/>
+</item>
+<item historyLabel="MenuPanel.java" index="17">
+<position/>
+</item>
+<item historyLabel="ShowPanel.java" index="18">
+<position/>
+</item>
+<item historyLabel="SnakeWindow.java" index="19">
+<position/>
+</item>
+<item historyLabel="Snake.java" index="20">
+<position/>
+</item>
+<item historyLabel="SnakeWindow.java" index="19">
+<position/>
+</item>
+<item historyLabel="Block.java" index="13">
+<position/>
+</item>
+<item historyLabel="BodyNode.java" index="14">
+<position info="not_deleted" x="419" y="0"/>
+</item>
+<item historyLabel="CtrlPanel.java" index="15">
+<position/>
+</item>
+<item historyLabel="Food.java" index="16">
+<position info="not_deleted" x="740" y="0"/>
+</item>
+<item historyLabel="MenuPanel.java" index="17">
+<position info="not_deleted" x="883" y="4"/>
+</item>
+<item historyLabel="ShowPanel.java" index="18">
+<position info="not_deleted" x="2129" y="0"/>
+</item>
+<item historyLabel="Snake.java" index="20">
+<position/>
+</item>
+<item historyLabel="SnakeWindow.java" index="19">
+<position/>
+</item>
+<item historyLabel="HandleMove.java" index="0">
+<position/>
+</item>
+<item historyLabel="Maze.java" index="1">
+<position info="not_deleted" x="471" y="4"/>
+</item>
+<item historyLabel="MazePoint.java" index="2">
+<position/>
+</item>
+<item historyLabel="MazeWindow.java" index="3">
+<position info="not_deleted" x="3776" y="4"/>
+</item>
+<item historyLabel="PersonInMaze.java" index="4">
+<position info="not_deleted" x="592" y="0"/>
+</item>
+<item historyLabel="WallOrRoad.java" index="5">
+<position/>
+</item>
+<item historyLabel="HandleMove.java" index="0">
+<position/>
+</item>
+<item historyLabel="Maze.java" index="1">
+<position info="not_deleted" x="13" y="0"/>
+</item>
+<item historyLabel="MazePoint.java" index="2">
+<position/>
+</item>
+<item historyLabel="MazeWindow.java" index="3">
+<position info="not_deleted" x="196" y="0"/>
+</item>
+<item historyLabel="PersonInMaze.java" index="4">
+<position info="not_deleted" x="121" y="0"/>
+</item>
+<item historyLabel="WallOrRoad.java" index="5">
+<position/>
+</item>
+<item historyLabel="SnakeWindow.java" index="19">
+<position/>
+</item>
+<item historyLabel="MenuPanel.java" index="17">
+<position info="not_deleted" x="1331" y="0"/>
+</item>
+<item historyLabel="HandleMove.java" index="0">
+<position info="not_deleted" x="39" y="0"/>
+</item>
+<item historyLabel="Maze.java" index="1">
+<position info="not_deleted" x="3893" y="4"/>
+</item>
+<item historyLabel="MazePoint.java" index="2">
+<position info="not_deleted" x="31" y="0"/>
+</item>
+<item historyLabel="MazeWindow.java" index="3">
+<position info="not_deleted" x="196" y="0"/>
+</item>
+<item historyLabel="MazeWindow.java" index="3">
+<position info="not_deleted" x="4027" y="0"/>
+</item>
+<item historyLabel="MazeWindow.java" index="3">
+<position info="not_deleted" x="4010" y="4"/>
+</item>
+<item historyLabel="PersonInMaze.java" index="4">
+<position info="not_deleted" x="121" y="0"/>
+</item>
+<item historyLabel="WallOrRoad.java" index="5">
+<position info="not_deleted" x="1303" y="4"/>
+</item>
+<item active="true" historyLabel="MazeWindow.java" index="3">
+<position info="not_deleted" x="1161" y="65"/>
+</item>
+</navigationHistory>
+<stickyState>
+<perspective IMemento.internal.id="org.eclipse.jdt.ui.JavaPerspective"/>
+</stickyState>
+<input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
+</page>
+<workbenchWindowAdvisor/>
+<actionBarAdvisor/>
+<trimLayout>
+<trimArea IMemento.internal.id="128">
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
+</trimArea>
+<trimArea IMemento.internal.id="1024">
+<trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
+<trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
+</trimArea>
+</trimLayout>
+</window>
+<mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MenuPanel.java" tooltip="airSteps/snake/MenuPanel.java">
+<persistable path="/airSteps/snake/MenuPanel.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Food.java" tooltip="airSteps/snake/Food.java">
+<persistable path="/airSteps/snake/Food.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CtrlPanel.java" tooltip="airSteps/snake/CtrlPanel.java">
+<persistable path="/airSteps/snake/CtrlPanel.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BodyNode.java" tooltip="airSteps/snake/BodyNode.java">
+<persistable path="/airSteps/snake/BodyNode.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="VerifySuccess.java" tooltip="airSteps/puzzle/VerifySuccess.java">
+<persistable path="/airSteps/puzzle/VerifySuccess.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="HandleMove.java" tooltip="airSteps/puzzle/HandleMove.java">
+<persistable path="/airSteps/puzzle/HandleMove.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="HandleImage.java" tooltip="airSteps/puzzle/HandleImage.java">
+<persistable path="/airSteps/puzzle/HandleImage.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MazePoint.java" tooltip="airSteps/maze/MazePoint.java">
+<persistable path="/airSteps/maze/MazePoint.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TowerPoint.java" tooltip="airSteps/hannoi/TowerPoint.java">
+<persistable path="/airSteps/hannoi/TowerPoint.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Tower.java" tooltip="airSteps/hannoi/Tower.java">
+<persistable path="/airSteps/hannoi/Tower.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="HandleMouse.java" tooltip="airSteps/hannoi/HandleMouse.java">
+<persistable path="/airSteps/hannoi/HandleMouse.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Disc.java" tooltip="airSteps/hannoi/Disc.java">
+<persistable path="/airSteps/hannoi/Disc.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AutoMoveDisc.java" tooltip="airSteps/hannoi/AutoMoveDisc.java">
+<persistable path="/airSteps/hannoi/AutoMoveDisc.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="WallOrRoad.java" tooltip="airSteps/maze/WallOrRoad.java">
+<persistable path="/airSteps/maze/WallOrRoad.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Maze.java" tooltip="airSteps/maze/Maze.java">
+<persistable path="/airSteps/maze/Maze.java"/>
+</file>
+</mruList>
+</workbench>

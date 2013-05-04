@@ -1,0 +1,8 @@
+package application;
+import javax.swing.*;
+
+public class LoginWindow extends JFrame {
+	public LoginWindow(){
+		
+	}
+}

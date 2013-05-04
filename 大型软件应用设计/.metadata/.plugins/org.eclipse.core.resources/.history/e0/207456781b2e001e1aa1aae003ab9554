@@ -1,0 +1,46 @@
+package application;
+import javax.swing.*;
+import java.awt.*;
+
+public class LoginWindow extends JFrame {
+	private Toolkit tool;
+	private Image image;
+	
+	private JLabel userLabel;
+	private JTextField user;
+	private JLabel pwdLabel;
+	private JPasswordField pwd;
+	
+	private JButton login;
+	
+	public LoginWindow(){
+		this.setTitle( "欢迎光临云中漫步游戏厅" );
+		this.setSize( 300, 200 );
+		this.setResizable( false );
+		this.setVisible( true );
+		this.setLayout( null );
+		this.setDefaultCloseOperation( JFrame.DISPOSE_ON_CLOSE );
+		
+		tool = this.getToolkit();
+		
+		userLabel = new JLabel( "user" );
+		userLabel.setBounds( 60, 30, 30, 20 );
+		this.add( userLabel );
+		
+		user = new JTextField( "请输入用户名" );
+		user.setBounds( 95, 30, 120, 20 );
+		this.add( user );
+		
+		pwdLabel = new JLabel( "pwd" );
+		pwdLabel.setBounds( 60, 60, 30, 20 );
+		this.add( pwdLabel );
+		
+		pwd = new JPasswordField();
+		pwd.setBounds( 95, 60, 120, 20 );
+		this.add( pwd );
+	}
+	
+	public static void main( String [] args ){
+		new LoginWindow();
+	}
+}

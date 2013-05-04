@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item value="182" key="DIALOG_Y_ORIGIN"/>
+		<item value="865" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="false" key="wrap"/>
+		<item value="true" key="casesensitive"/>
+		<item value="false" key="isRegEx"/>
+		<item value="false" key="incremental"/>
+		<item value="true" key="wholeword"/>
+		<item value="File" key="selection"/>
+		<list key="findhistory">
+			<item value="File"/>
+			<item value=".maze"/>
+			<item value=".map"/>
+			<item value=".jpg"/>
+			<item value="System"/>
+			<item value="；"/>
+			<item value="label 高级"/>
+			<item value="label 中级"/>
+		</list>
+		<list key="replacehistory">
+			<item value=";"/>
+			<item value="label高级"/>
+			<item value="label中级"/>
+			<item value="label初级"/>
+			<item value=","/>
+			<item value="rule"/>
+			<item value="gameInfo"/>
+			<item value="game"/>
+		</list>
+	</section>
+</section>

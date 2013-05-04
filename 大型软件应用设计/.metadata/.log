@@ -1,0 +1,380 @@
+!SESSION 2009-04-04 22:12:46.687 -----------------------------------------------
+eclipse.buildId=M20070212-1330
+java.version=1.6.0_11
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.core.resources 4 4 2009-04-04 22:50:39.109
+!MESSAGE 从 /snake/.settings/org.eclipse.jdt.ui.prefs 中装入首选项时发生异常。
+!STACK 1
+org.eclipse.core.runtime.CoreException: 找不到文件：E:\大规模软件设计\snake\.settings\org.eclipse.jdt.ui.prefs。
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:60)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:327)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:609)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:290)
+	at org.eclipse.core.internal.resources.ProjectPreferences.load(ProjectPreferences.java:451)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.create(EclipsePreferences.java:307)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.getChild(EclipsePreferences.java:412)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalNode(EclipsePreferences.java:541)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.node(EclipsePreferences.java:662)
+	at org.eclipse.core.resources.ProjectScope.getNode(ProjectScope.java:67)
+	at org.eclipse.jdt.ui.PreferenceConstants.getPreference(PreferenceConstants.java:3704)
+	at org.eclipse.jdt.internal.corext.codemanipulation.StubUtility.doAddComments(StubUtility.java:987)
+	at org.eclipse.jdt.ui.wizards.NewTypeWizardPage.initTypePage(NewTypeWizardPage.java:576)
+	at org.eclipse.jdt.ui.wizards.NewClassWizardPage.init(NewClassWizardPage.java:89)
+	at org.eclipse.jdt.internal.ui.wizards.NewClassCreationWizard.addPages(NewClassCreationWizard.java:49)
+	at org.eclipse.jface.wizard.WizardDialog.createContents(WizardDialog.java:499)
+	at org.eclipse.jface.window.Window.create(Window.java:426)
+	at org.eclipse.jface.dialogs.Dialog.create(Dialog.java:1124)
+	at org.eclipse.ui.internal.actions.NewWizardShortcutAction.run(NewWizardShortcutAction.java:102)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:499)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:539)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:488)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:400)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:66)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:928)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3348)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:2968)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:1930)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:1894)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:422)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.IDEApplication.run(IDEApplication.java:95)
+	at org.eclipse.core.internal.runtime.PlatformActivator$1.run(PlatformActivator.java:78)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:92)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:68)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:177)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.core.launcher.Main.invokeFramework(Main.java:336)
+	at org.eclipse.core.launcher.Main.basicRun(Main.java:280)
+	at org.eclipse.core.launcher.Main.run(Main.java:977)
+	at org.eclipse.core.launcher.Main.main(Main.java:952)
+org.eclipse.core.runtime.CoreException[271]: java.io.FileNotFoundException: E:\大规模软件设计\snake\.settings\org.eclipse.jdt.ui.prefs (系统找不到指定的路径。)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:318)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:609)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:290)
+	at org.eclipse.core.internal.resources.ProjectPreferences.load(ProjectPreferences.java:451)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.create(EclipsePreferences.java:307)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.getChild(EclipsePreferences.java:412)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalNode(EclipsePreferences.java:541)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.node(EclipsePreferences.java:662)
+	at org.eclipse.core.resources.ProjectScope.getNode(ProjectScope.java:67)
+	at org.eclipse.jdt.ui.PreferenceConstants.getPreference(PreferenceConstants.java:3704)
+	at org.eclipse.jdt.internal.corext.codemanipulation.StubUtility.doAddComments(StubUtility.java:987)
+	at org.eclipse.jdt.ui.wizards.NewTypeWizardPage.initTypePage(NewTypeWizardPage.java:576)
+	at org.eclipse.jdt.ui.wizards.NewClassWizardPage.init(NewClassWizardPage.java:89)
+	at org.eclipse.jdt.internal.ui.wizards.NewClassCreationWizard.addPages(NewClassCreationWizard.java:49)
+	at org.eclipse.jface.wizard.WizardDialog.createContents(WizardDialog.java:499)
+	at org.eclipse.jface.window.Window.create(Window.java:426)
+	at org.eclipse.jface.dialogs.Dialog.create(Dialog.java:1124)
+	at org.eclipse.ui.internal.actions.NewWizardShortcutAction.run(NewWizardShortcutAction.java:102)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:499)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:539)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:488)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:400)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:66)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:928)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3348)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:2968)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:1930)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:1894)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:422)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.IDEApplication.run(IDEApplication.java:95)
+	at org.eclipse.core.internal.runtime.PlatformActivator$1.run(PlatformActivator.java:78)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:92)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:68)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:177)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.core.launcher.Main.invokeFramework(Main.java:336)
+	at org.eclipse.core.launcher.Main.basicRun(Main.java:280)
+	at org.eclipse.core.launcher.Main.run(Main.java:977)
+	at org.eclipse.core.launcher.Main.main(Main.java:952)
+!SUBENTRY 1 org.eclipse.core.filesystem 4 271 2009-04-04 22:50:39.109
+!MESSAGE 找不到文件：E:\大规模软件设计\snake\.settings\org.eclipse.jdt.ui.prefs。
+!STACK 0
+java.io.FileNotFoundException: E:\大规模软件设计\snake\.settings\org.eclipse.jdt.ui.prefs (系统找不到指定的路径。)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:318)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:609)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:290)
+	at org.eclipse.core.internal.resources.ProjectPreferences.load(ProjectPreferences.java:451)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.create(EclipsePreferences.java:307)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.getChild(EclipsePreferences.java:412)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalNode(EclipsePreferences.java:541)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.node(EclipsePreferences.java:662)
+	at org.eclipse.core.resources.ProjectScope.getNode(ProjectScope.java:67)
+	at org.eclipse.jdt.ui.PreferenceConstants.getPreference(PreferenceConstants.java:3704)
+	at org.eclipse.jdt.internal.corext.codemanipulation.StubUtility.doAddComments(StubUtility.java:987)
+	at org.eclipse.jdt.ui.wizards.NewTypeWizardPage.initTypePage(NewTypeWizardPage.java:576)
+	at org.eclipse.jdt.ui.wizards.NewClassWizardPage.init(NewClassWizardPage.java:89)
+	at org.eclipse.jdt.internal.ui.wizards.NewClassCreationWizard.addPages(NewClassCreationWizard.java:49)
+	at org.eclipse.jface.wizard.WizardDialog.createContents(WizardDialog.java:499)
+	at org.eclipse.jface.window.Window.create(Window.java:426)
+	at org.eclipse.jface.dialogs.Dialog.create(Dialog.java:1124)
+	at org.eclipse.ui.internal.actions.NewWizardShortcutAction.run(NewWizardShortcutAction.java:102)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:499)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:539)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:488)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:400)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:66)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:928)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3348)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:2968)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:1930)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:1894)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:422)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.IDEApplication.run(IDEApplication.java:95)
+	at org.eclipse.core.internal.runtime.PlatformActivator$1.run(PlatformActivator.java:78)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:92)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:68)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:177)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.core.launcher.Main.invokeFramework(Main.java:336)
+	at org.eclipse.core.launcher.Main.basicRun(Main.java:280)
+	at org.eclipse.core.launcher.Main.run(Main.java:977)
+	at org.eclipse.core.launcher.Main.main(Main.java:952)
+
+!ENTRY org.eclipse.equinox.preferences 4 4 2009-04-04 22:50:39.109
+!MESSAGE 从 E:/大规模软件设计/snake/.settings/org.eclipse.jdt.ui.prefs 中装入首选项时发生异常。
+!STACK 0
+org.osgi.service.prefs.BackingStoreException: 从 /snake/.settings/org.eclipse.jdt.ui.prefs 中装入首选项时发生异常。
+	at org.eclipse.core.internal.resources.ProjectPreferences.load(ProjectPreferences.java:456)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.create(EclipsePreferences.java:307)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.getChild(EclipsePreferences.java:412)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalNode(EclipsePreferences.java:541)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.node(EclipsePreferences.java:662)
+	at org.eclipse.core.resources.ProjectScope.getNode(ProjectScope.java:67)
+	at org.eclipse.jdt.ui.PreferenceConstants.getPreference(PreferenceConstants.java:3704)
+	at org.eclipse.jdt.internal.corext.codemanipulation.StubUtility.doAddComments(StubUtility.java:987)
+	at org.eclipse.jdt.ui.wizards.NewTypeWizardPage.initTypePage(NewTypeWizardPage.java:576)
+	at org.eclipse.jdt.ui.wizards.NewClassWizardPage.init(NewClassWizardPage.java:89)
+	at org.eclipse.jdt.internal.ui.wizards.NewClassCreationWizard.addPages(NewClassCreationWizard.java:49)
+	at org.eclipse.jface.wizard.WizardDialog.createContents(WizardDialog.java:499)
+	at org.eclipse.jface.window.Window.create(Window.java:426)
+	at org.eclipse.jface.dialogs.Dialog.create(Dialog.java:1124)
+	at org.eclipse.ui.internal.actions.NewWizardShortcutAction.run(NewWizardShortcutAction.java:102)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:499)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:539)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:488)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:400)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:66)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:928)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3348)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:2968)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:1930)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:1894)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:422)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.IDEApplication.run(IDEApplication.java:95)
+	at org.eclipse.core.internal.runtime.PlatformActivator$1.run(PlatformActivator.java:78)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:92)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:68)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:177)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.core.launcher.Main.invokeFramework(Main.java:336)
+	at org.eclipse.core.launcher.Main.basicRun(Main.java:280)
+	at org.eclipse.core.launcher.Main.run(Main.java:977)
+	at org.eclipse.core.launcher.Main.main(Main.java:952)
+!SESSION 2009-04-17 23:37:21.079 -----------------------------------------------
+eclipse.buildId=M20070212-1330
+java.version=1.6.0_11
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.ui 4 4 2009-04-18 02:23:22.188
+!MESSAGE 异常的工作台情况
+
+!ENTRY org.eclipse.ui 4 0 2009-04-18 02:23:22.204
+!MESSAGE 资源 /Snake 已存在。
+!STACK 0
+org.eclipse.core.commands.ExecutionException: 资源 /Snake 已存在。
+	at org.eclipse.ltk.internal.core.refactoring.UndoableOperation2ChangeAdapter.undo(UndoableOperation2ChangeAdapter.java:186)
+	at org.eclipse.core.commands.operations.TriggeredOperations.undo(TriggeredOperations.java:227)
+	at org.eclipse.core.commands.operations.DefaultOperationHistory.doUndo(DefaultOperationHistory.java:413)
+	at org.eclipse.core.commands.operations.DefaultOperationHistory.undo(DefaultOperationHistory.java:1244)
+	at org.eclipse.ui.operations.UndoActionHandler.runCommand(UndoActionHandler.java:66)
+	at org.eclipse.ui.operations.OperationHistoryActionHandler$4.run(OperationHistoryActionHandler.java:279)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:369)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:313)
+	at org.eclipse.jface.dialogs.ProgressMonitorDialog.run(ProgressMonitorDialog.java:479)
+	at org.eclipse.ui.internal.operations.TimeTriggeredProgressMonitorDialog.access$6(TimeTriggeredProgressMonitorDialog.java:1)
+	at org.eclipse.ui.internal.operations.TimeTriggeredProgressMonitorDialog$2.run(TimeTriggeredProgressMonitorDialog.java:203)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
+	at org.eclipse.ui.internal.operations.TimeTriggeredProgressMonitorDialog.run(TimeTriggeredProgressMonitorDialog.java:216)
+	at org.eclipse.ui.operations.OperationHistoryActionHandler.run(OperationHistoryActionHandler.java:289)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:499)
+	at org.eclipse.ui.actions.RetargetAction.runWithEvent(RetargetAction.java:229)
+	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:119)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:461)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:424)
+	at org.eclipse.ui.internal.handlers.HandlerService.executeCommand(HandlerService.java:160)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.executeCommand(WorkbenchKeyboard.java:466)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.press(WorkbenchKeyboard.java:799)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.processKeyEvent(WorkbenchKeyboard.java:846)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.filterKeySequenceBindings(WorkbenchKeyboard.java:564)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.access$3(WorkbenchKeyboard.java:506)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard$KeyDownFilter.handleEvent(WorkbenchKeyboard.java:122)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:66)
+	at org.eclipse.swt.widgets.Display.filterEvent(Display.java:982)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:927)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:952)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:937)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:965)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:961)
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1275)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:3346)
+	at org.eclipse.swt.widgets.Tree.WM_CHAR(Tree.java:4787)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:3246)
+	at org.eclipse.swt.widgets.Tree.windowProc(Tree.java:4783)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4025)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:1932)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:2966)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:1930)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:1894)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:422)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.IDEApplication.run(IDEApplication.java:95)
+	at org.eclipse.core.internal.runtime.PlatformActivator$1.run(PlatformActivator.java:78)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:92)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:68)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:177)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.core.launcher.Main.invokeFramework(Main.java:336)
+	at org.eclipse.core.launcher.Main.basicRun(Main.java:280)
+	at org.eclipse.core.launcher.Main.run(Main.java:977)
+	at org.eclipse.core.launcher.Main.main(Main.java:952)
+Caused by: Java Model Exception: Core Exception [code 374] 资源 /Snake 已存在。
+	at org.eclipse.jdt.internal.core.BatchOperation.executeOperation(BatchOperation.java:50)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:720)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1737)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:4024)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:3981)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.perform(DynamicValidationStateChange.java:95)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.internal.core.refactoring.UndoableOperation2ChangeAdapter$1.run(UndoableOperation2ChangeAdapter.java:309)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1737)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1719)
+	at org.eclipse.ltk.internal.core.refactoring.UndoableOperation2ChangeAdapter.executeChange(UndoableOperation2ChangeAdapter.java:340)
+	at org.eclipse.ltk.internal.core.refactoring.UndoableOperation2ChangeAdapter.undo(UndoableOperation2ChangeAdapter.java:170)
+	... 59 more
+!SESSION 2009-04-18 02:26:19.688 -----------------------------------------------
+eclipse.buildId=M20070212-1330
+java.version=1.6.0_11
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.core.resources 4 567 2009-04-18 02:26:22.329
+!MESSAGE 已复原工作空间，但是发生了一些问题。
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2009-04-18 02:26:22.329
+!MESSAGE 缺少 Snake 的项目描述文件（.project）。此文件包含有关项目的重要信息。项目将在复原此文件之后才能正常工作。
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2009-04-18 02:26:22.329
+!MESSAGE 缺少 Snake1 的项目描述文件（.project）。此文件包含有关项目的重要信息。项目将在复原此文件之后才能正常工作。
+!SESSION 2009-04-18 02:27:31.594 -----------------------------------------------
+eclipse.buildId=M20070212-1330
+java.version=1.6.0_11
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.core.resources 4 567 2009-04-18 02:27:34.251
+!MESSAGE 已复原工作空间，但是发生了一些问题。
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2009-04-18 02:27:34.251
+!MESSAGE 缺少 sNAKE 的项目描述文件（.project）。此文件包含有关项目的重要信息。项目将在复原此文件之后才能正常工作。
+!SESSION 2009-04-18 20:56:13.171 -----------------------------------------------
+eclipse.buildId=M20070212-1330
+java.version=1.6.0_11
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.core.jobs 4 2 2009-04-18 22:10:35.421
+!MESSAGE 在“启动”期间发生了内部错误。
+!STACK 0
+java.lang.OutOfMemoryError: unable to create new native thread
+	at java.lang.Thread.start0(Native Method)
+	at java.lang.Thread.start(Unknown Source)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.startMonitoring(OutputStreamMonitor.java:199)
+	at org.eclipse.debug.internal.core.StreamsProxy.<init>(StreamsProxy.java:54)
+	at org.eclipse.debug.core.model.RuntimeProcess.createStreamsProxy(RuntimeProcess.java:264)
+	at org.eclipse.debug.core.model.RuntimeProcess.<init>(RuntimeProcess.java:121)
+	at org.eclipse.debug.core.DebugPlugin.newProcess(DebugPlugin.java:652)
+	at org.eclipse.jdt.launching.AbstractVMRunner.newProcess(AbstractVMRunner.java:110)
+	at org.eclipse.jdt.internal.launching.StandardVMRunner.run(StandardVMRunner.java:252)
+	at org.eclipse.jdt.launching.JavaLaunchDelegate.launch(JavaLaunchDelegate.java:101)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:639)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:565)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:754)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$6.run(DebugUIPlugin.java:944)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:58)
+
+!ENTRY org.eclipse.ui 4 4 2009-04-18 22:10:35.437
+!MESSAGE Unhandled event loop exception
+
+!ENTRY org.eclipse.ui 4 0 2009-04-18 22:10:35.437
+!MESSAGE unable to create new native thread
+!STACK 0
+java.lang.OutOfMemoryError: unable to create new native thread
+	at java.lang.Thread.start0(Native Method)
+	at java.lang.Thread.start(Unknown Source)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.startMonitoring(OutputStreamMonitor.java:199)
+	at org.eclipse.debug.internal.core.StreamsProxy.<init>(StreamsProxy.java:54)
+	at org.eclipse.debug.core.model.RuntimeProcess.createStreamsProxy(RuntimeProcess.java:264)
+	at org.eclipse.debug.core.model.RuntimeProcess.<init>(RuntimeProcess.java:121)
+	at org.eclipse.debug.core.DebugPlugin.newProcess(DebugPlugin.java:652)
+	at org.eclipse.jdt.launching.AbstractVMRunner.newProcess(AbstractVMRunner.java:110)
+	at org.eclipse.jdt.internal.launching.StandardVMRunner.run(StandardVMRunner.java:252)
+	at org.eclipse.jdt.launching.JavaLaunchDelegate.launch(JavaLaunchDelegate.java:101)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:639)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:565)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:754)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$6.run(DebugUIPlugin.java:944)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:58)
+!SESSION 2009-04-21 11:53:50.437 -----------------------------------------------
+eclipse.buildId=M20070212-1330
+java.version=1.6.0_11
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.core.resources 2 10035 2009-04-21 11:53:55.437
+!MESSAGE A workspace crash was detected. The previous session did not exit normally.
+!SESSION 2009-05-17 20:19:41.328 -----------------------------------------------
+eclipse.buildId=M20070212-1330
+java.version=1.6.0_11
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.core.resources 2 2 2009-05-17 21:02:03.437
+!MESSAGE 保存操作警告。
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2009-05-17 21:02:03.437
+!MESSAGE 缺少 Snake 的项目描述文件（.project）。此文件包含有关项目的重要信息。已经创建了新项目描述文件，但是可能缺少有关项目的某些信息。
